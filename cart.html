@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+
+<body>
+  <section>
+    <!--order-->
+    <div class="container-1">
+      <div id="contact-no">
+        <p>+ 1235 2355 98</p>
+      </div>
+      <div class="contact-mail">
+        <p>youremail@email.com</p>
+      </div>
+      <div class="delivery-detail">
+        <p>3-5 Business days delivery & Free Returns</p>
+      </div>
+    </div>
+  </section>
+  <section class="navbar-section">
+    <!-- navbar -->
+    <nav>
+      <div class="navbar-1">
+        <a href="#" id="logo">VEGEFOODS</a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="cart.html"><i class="fa-solid fa-cart-shopping" id="nav-icon">[0]</i></a> </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <section>
+    <!-- hero -->
+    <div class="hero">
+      <p>HOME CART</p>
+      <h1>My Cart</h1>
+    </div>
+  </section>
+
+  <section class="table-cart">
+    <!-- table -->
+    <table border="1" cellspacing="0" cellpadding="10">
+      <thead>
+        <tr>
+          <th></th>
+          <th></th>
+          <th>Product Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="">
+            <span class="icon-box" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+              ✖
+            </span>
+          </td>
+          <td data-label="">
+            <img src="images/product-3.jpg" alt="Product" width="50" />
+          </td>
+          <td data-label="Product Name">
+            <h2>Bell Pepper</h2>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+            </p>
+          </td>
+          <td data-label="Price">$4.90</td>
+          <td data-label="Quantity">1</td>
+          <td data-label="Total">$4.90</td>
+        </tr>
+
+        <tr>
+          <td data-label="">
+            <span class="icon-box" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+              ✖
+            </span>
+          </td>
+          <td data-label="">
+            <img src="images/product-4.jpg" alt="Product" width="50" />
+          </td>
+          <td data-label="Product Name">
+            <h2>Bell Pepper</h2>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+            </p>
+          </td>
+          <td data-label="Price">$15.70</td>
+          <td data-label="Quantity">1</td>
+          <td data-label="Total">$15.70</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+
+
+  <div class="final-checkout">
+    <div>
+      <div class="coupon-code">
+        <h3>Coupon Code</h3>
+        <p>Enter your coupon code if you have one</p>
+        <form action="">
+          <label for="">Coupon code</label> <br>
+          <input type="text"> <br>
+        </form>
+      </div>
+      <button type="submit" class="coupon-btn">Apply Coupon</button>
+    </div>
+
+    <div>
+      <div class="coupon-code">
+        <h3>Estimate shipping and tax</h3>
+        <p>Enter your destination to get a shipping estimate</p>
+        <form action="">
+          <label for="">Country</label> <br>
+          <input type="text"> <br>
+          <label for="">State/Province</label> <br>
+          <input type="text" name="" id=""> <br>
+          <label for="">Zip/Postal Code</label>
+          <input type="text" name="" id="">
+        </form>
+      </div>
+      <button type="submit" class="coupon-btn">Estimate</button>
+    </div>
+    <div>
+      <div class="bill">
+        <h3>Cart Totals</h3>
+        <span>Subtotal</span>
+        <span class="amount">$20.60</span> <br>
+        <span>Delivery</span>
+        <span class="amount">$$0.00</span> <br>
+        <span>Subtotal</span>
+        <span class="amount">$3.00</span>
+        <hr>
+        <div class="total">
+          <span>Total</span>
+          <span class="total-amount">$17.60</span>
+        </div>
+      </div>
+      <button class="coupon-btn">Proceed To Checkout</button>
+    </div>
+
+  </div>
+
+  <section class="subscribe-section">
+
+    <!-- subscription -->
+    <div class="subscription">
+      <div id="subscription-heading">
+        <h2>Subcribe to our Newsletter</h2>
+        <p>Get e-mail updates about our latest shops and special offers</p>
+      </div>
+      <div id="subscription-mail">
+        <input type="email" name="" id="" placeholder="Enter Email address">
+        <button type="submit">Subscribe</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <!-- footer -->
+    <div class="footer">
+      <div id="footer-widget">
+        <h2 class="footer-heading">Vegefoods</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+        <div class="footer-icons-1">
+          <div><i class="fa-brands fa-twitter"></i></div>
+          <div><i class="fa-brands fa-facebook"></i></div>
+          <div> <i class="fa-brands fa-instagram"></i></div>
+        </div>
+      </div>
+
+      <div id="footer-menu">
+        <h2 class="footer-heading">Menu</h2>
+
+        <ul>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Journal</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+
+      <div id="footer-help">
+        <h2 class="footer-heading">Help</h2>
+        <ul>
+          <li><a href="#">Shipping Information</a></li>
+          <li><a href="#">Returns &Exchange</a></li>
+          <li><a href="#">Terms&conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-queries">
+        <h2 class="footer-heading">Have a Question?</h2>
+        <div class="queries">
+          <div><span> <i class="fa-solid fa-location-dot"></i></span> <span> 203 Fake St. Mountain View, San Francisco,
+              California, USA</span> </div> <br>
+          <div></div> <span><i class="fa-solid fa-phone"></i></span> <span><a href="#">+2 392 3929 210</a></span>
+        </div> <br>
+        <div> <span> <i class="fa-solid fa-envelope"></i></span> <span><a href="#">info@yourdomain.com</a></span> </div>
+      </div>
+    </div>
+    </div>
+    <div class="footer-text">
+      <p>Copyright ©2025 All rights reserved | This template is made with &#9829; by <a href="#">Colorlib</a></p>
+    </div>
+
+  </section>
+
+
+</body>
+
+</html>
